@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Responsive_Registration_Form</title>
+    <meta name="viewport" content="width=device-width,
+      initial-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" >
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="form-title">Registration</h1>
+      <form action="#">
+        <div class="main-user-info">
+          <div class="user-input-box">
+            <label for="firstname">First Name</label>
+            <input type="text"
+                    id="firstName"
+                    name="firstName"
+                    placeholder="Enter First Name" required>
+          </div>
+          <div class="user-input-box">
+            <label for="lastname">Last Name</label>
+            <input type="text"
+                    id="lastname"
+                    name="lastname"
+                    placeholder="Enter Last Name" required>
+          </div>
+          <div class="user-input-box">
+            <label for="email">Email Id</label>
+            <input type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter Email" required>
+          </div>
+          <div class="user-input-box">
+            <label for="phoneNumber">Phone Number</label>
+            <input type="text"
+                    id="phoneNumber"
+                    name="phoneNumber"
+                    placeholder="Enter Phone Number" required>
+          </div>
+           <div class="user-input-box">
+            <label for="phoneNumber">Date of Birth</label>
+            <input type="text"
+                    id="Date of birth"
+                    placeholder="Date of birth *" name="date" onfocus="(this.type = 'date')" required autofocus/>
+          </div>
+          <div class="user-input-box">
+            <label for="state">State</label>
+            <select>
+            <option>Select State</option>
+            <option>Andhra Pradesh</option></br><option>Arunachal Pradesh</option></br><option>Assam</option></br><option>Bihar</option></br><option >Chandigarh</option></br><option>Chhattisgarh</option></br><option>Goa</option></br><option>Gujarat</option></br><option>Haryana</option></br><option>Himachal Pradesh</option></br><option>Jammu & Kashmir</option></br><option>Jharkhand</option></br><option>Karnataka</option></br><option>Kerala</option></br><option>Ladakh</option></br><option>Madhya Pradesh</option></br><option>Maharashtra</option></br><option>Manipur</option></br><option>Meghalaya</option></br><option>Mizoram</option></br><option>Nagaland</option></br><option>Odisha</option></br><option>Punjab</option></br><option>Rajasthan</option></br><option>Sikkim</option></br><option>Tamil Nadu</option></br><option>Telangana</option></br><option>Tripura</option></br><option>Uttarakhand</option></br><option>Uttar Pradesh</option></br><option>West Bengal</option>
+           </select>
+          </div>
+          <div class="user-input-box">
+            <label for="password">Password</label>
+            <input type="password"
+                    id="password"
+                    name="password"
+                    placeholder="Enter Password"/>
+          </div>
+          <div class="user-input-box">
+            <label for="confirmPassword">Confirm Password</label>
+            <input type="password"
+                    id="confirmPassword"
+                    name="confirmPassword"
+                    placeholder="Confirm Password"/>
+          </div>
+        </div>
+        <div class="gender-details-box">
+          <span class="gender-title">Gender</span>
+          <div class="gender-category">
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="other">
+            <label for="other">Other</label>
+          </div>
+        </div>
+        <div class="form-submit-btn">
+          <input type="submit" value="Register">
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
